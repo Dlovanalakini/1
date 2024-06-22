@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">My Application</string>
-    <string name="enter_age">enter age</string>
-    <string name="enter_salary">enter salary</string>
-    <string name="enter_name">enter name</string>
-    <string name="save_data">save data</string>
-    <string name="insert_data">insert data</string>
-    <string name="fetch_data">fetch data</string>
-</resources>
