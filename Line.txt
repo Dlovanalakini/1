@@ -1,0 +1,26 @@
+enable
+configure terminal
+hostname [RouterName]
+(Ctrl+C)
+copy running-config startup-config
+show running-config
+reload
+enable
+configure terminal
+line console 0
+password [password]
+login
+exit
+exit
+copy running-config startup-config
+reload
+pc2 
+ip 192.168.1.100
+defult 192.168.1.1
+conf ter 
+interface ethernet 0/0
+192.168.1.1 255.255.255.0
+no shoutdown 
+copy run start
+pc2 desktop 
+telnet 192.168.1.1

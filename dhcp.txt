@@ -1,0 +1,28 @@
+Design
+1 ROUTER PT
+2 Switch 24TT
+4PC
+frist comand
+#Enable
+#conf t
+#in fa0/0
+#ip address 192.168.0.1 255.255.255.0
+#no shutdown
+#do wrire memory
+#ip dhcp pool net1
+#network 192.168.0.1 255.255.255.0
+#exit
+pash
+
+PC0-> vaka --> Desktop-->ip configuration --> DHCP
+PC1-> vaka --> Desktop-->ip configuration --> DHCP
+
+ROUTER Vaka
+#in fa1/0
+#ip address 192.168.1.1 255.255.255.0
+#no shutdown
+#do wrire memory
+#ip dhcp pool net2
+#network 192.168.1.1 255.255.255.0
+PC2-> vaka --> Desktop-->ip configuration --> DHCP
+PC3-> vaka --> Desktop-->ip configuration --> DHCP

@@ -1,0 +1,22 @@
+?
+show ?
+[click space]
+enable
+configure terminal 
+hostname ? 
+hostname [navakê]
+exit
+[click enter]
+copy running-config 
+startup-config show
+show running-config
+[click space] /// hata xlas bit
+line console 0 
+password?
+De password nvisen 
+exit 
+exit
+[click enter]
+copy running-config startup-config 
+reload 
+enter

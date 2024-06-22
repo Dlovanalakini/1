@@ -1,0 +1,51 @@
+enable
+show vlan
+configure terminal
+vlan 50 (add vlan)
+?
+name market (vlan name)
+vlan 99 (add vlan)
+name customer (vlan name)
+exit
+exit
+show vlan
+
+configure termnial
+interface f0/10
+switchport access vlan 50 (f0/10 connect to vlan 50)
+end
+show running-config
+show vlan
+---------------------------------------------
+add another pc & vlan
+enable 
+configure terminal
+interface f0/24
+switchport access vlan 99
+ctrl+c(end)
+interface f0/24
+interface vlan 99
+ip address 192.168.99.2 255.255.255.0
+no shutdown 
+show running-config 
+show vlan
+----------------------------------------------------
+{Password}
+
+line vty 0 15
+password metin
+login
+
+--> got to pc
+telnet 192.168.99.2 
+enter password
+
+-->go to switch again
+enter Configure terminal
+enable secret metin
+
+---------------------------------------------------------
+
+
+
+
