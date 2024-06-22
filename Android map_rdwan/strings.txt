@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">Finali</string>
-    <string name="my_map_api_key">AIzaSyCCTLpP0QixWW0mqtVK7fCAWAE_0fBpVmg</string>
-
-
-</resources>
